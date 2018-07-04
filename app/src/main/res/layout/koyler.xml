@@ -1,0 +1,270 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.burakekmen.camolukrehberi.Koyler"
+    android:orientation="vertical"
+    android:background="@drawable/arkaplanim">
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnAkyapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:text="AKYAPI KÖYÜ"
+                android:textAlignment="center"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BAYIR KÖYÜ"
+                android:id="@+id/btnBayir"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÇAKILKAYA KÖYÜ"
+                android:id="@+id/btnCakilkaya"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DALDİBİ KÖYÜ"
+                android:id="@+id/btnDaldibi"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EĞNİR KÖYÜ"
+                android:id="@+id/btnEgnir"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FINDIKLI KÖYÜ"
+                android:id="@+id/btnFindikli"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GÜCER KÖYÜ"
+                android:id="@+id/btnGucer"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GÜRÇALI KÖYÜ"
+                android:id="@+id/btnGürcali"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HACIAHMETOĞLU KÖYÜ"
+                android:id="@+id/btnHaciAhmet"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HACIÖREN KÖYÜ"
+                android:id="@+id/btnHacioren"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KALEDERE KÖYÜ"
+                android:id="@+id/btnKaledere"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KARADİKMEN KÖYÜ"
+                android:id="@+id/btnKaradikmen"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KAYACIK KÖYÜ"
+                android:id="@+id/btnKayacik"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KAYNAR KÖYÜ"
+                android:id="@+id/btnKaynar"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KILIÇTUTAN KÖYÜ"
+                android:id="@+id/btnKilictutan"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KOÇAK KÖYÜ"
+                android:id="@+id/btnKocak"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KUTLUCA KÖYÜ"
+                android:id="@+id/btnKutluca"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OKÇAÖREN KÖYÜ"
+                android:id="@+id/btnOkcaoren"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OZAN KÖYÜ"
+                android:id="@+id/btnOzan"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PINARLI KÖYÜ"
+                android:id="@+id/btnPinarli"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SARPKAYA KÖYÜ"
+                android:id="@+id/btnSarpkaya"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TAŞÇILAR KÖYÜ"
+                android:id="@+id/btnTascilar"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TAŞDEMİR KÖYÜ"
+                android:id="@+id/btnTasdemir"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="USLUCA KÖYÜ"
+                android:id="@+id/btnUsluca"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YENİCE KÖYÜ"
+                android:id="@+id/btnYenice"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YENİKÖY KÖYÜ"
+                android:id="@+id/btnYenikoy"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YUSUFELİ KÖYÜ"
+                android:id="@+id/btnYusufeli"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

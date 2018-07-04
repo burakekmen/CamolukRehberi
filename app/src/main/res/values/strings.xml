@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Çamoluk Rehberi</string>
+    <string name="title_activity_main">Slide Menü</string>
+    <string name="opened">Menü Açık</string>
+    <string name="closed">Menü Kapalı</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Yapımcı Hakkında</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="slidemenu_item">
+        <item>Ana Sayfa</item>
+        <item>Coğrafya</item>
+        <item>Nüfus ve Ekonomi</item>
+        <item>Tarih</item>
+        <item>Tarihi ve Doğal Güzellikler</item>
+        <item>Ulaşım</item>
+        <item>Mahalleler</item>
+        <item>Köylerimiz</item>
+        <item>Yapımcı Hakkında</item>
+    </string-array>
+
+    <array name="icons">
+        <item name="acilis">@drawable/rsmacilis</item>
+        <item name="cografya">@drawable/rsmcografya</item>
+        <item name="ekonomi">@drawable/rsmekonomi</item>
+        <item name="tarih">@drawable/rsmtarih</item>
+        <item name="dogalguzellik">@drawable/rsmdoga</item>
+        <item name="ulasim">@drawable/rsmulasim</item>
+        <item name="mahalleler">@drawable/rsmmahalle</item>
+        <item name="koyler">@drawable/rsmkoyler</item>
+        <item name="hakkinda">@drawable/rsmhakkinda</item>
+    </array>
+    <string name="title_activity_maps">Map</string>
+</resources>

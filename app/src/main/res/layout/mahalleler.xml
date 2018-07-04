@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplanim">
+
+    <ScrollView
+        android:id="@+id/scrollView7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DULUNDAS"
+                android:id="@+id/btnDulundas"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HÜRRİYET"
+                android:id="@+id/btnHurriyet"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KARŞIYAKA"
+                android:id="@+id/btnKarsiyaka"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KÖROĞLU"
+                android:id="@+id/btnKoroglu"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KURTULUŞ"
+                android:id="@+id/btnKurtulus"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KURUKOL"
+                android:id="@+id/btnKurukol"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YAZILAR"
+                android:id="@+id/btnYazilar"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YUVACIK"
+                android:id="@+id/btnYuvacik"
+                android:textAlignment="center"
+                android:background="@drawable/buttonshape"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
